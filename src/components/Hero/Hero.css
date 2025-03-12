@@ -1,0 +1,147 @@
+.hero {
+    width: 100vw;
+    padding: 12rem 0 8rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero .container {
+    padding-left: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    background-color: rgba(14,14,14,1);
+    color: white;
+    padding: 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stats-left {
+    flex: 1;
+    padding-right: 4rem;
+  }
+  
+  .stats-left h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stats-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    max-width: 500px;
+  }
+  
+  .fund-now-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .fund-now-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .stats-right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-content: center;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-number span {
+    font-size: 2rem;
+    margin-left: 2px;
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Innovation Section */
+  .innovation {
+    width: 100vw;
+    padding: 5rem 0;
+    position: relative;
+  }
+  
+  .innovation-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .innovation-header {
+    max-width: 600px;
+  }
+  
+  .innovation-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .innovation-header p {
+    opacity: 0.7;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+  }
